@@ -43,7 +43,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/ui/start-button.png
+    - assets/images/ui/PlayButton-01.png
     - assets/images/branding/title.png
+    - assets/images/branding/ColorCatcher-01.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

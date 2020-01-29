@@ -14,7 +14,7 @@ class HomeView {
       game.tileSize * 7,
       game.tileSize * 4,
     );
-    titleSprite = Sprite('branding/title.png');
+    titleSprite = Sprite('branding/ColorCatcher-01.png');
   }
 
   void render(Canvas c) {

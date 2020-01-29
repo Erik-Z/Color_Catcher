@@ -17,7 +17,7 @@ class PlayButton {
       game.tileSize * 6,
       game.tileSize * 3,
     );
-    sprite = Sprite('ui/start-button.png');
+    sprite = Sprite('ui/PlayButton-01.png');
   }
 
   void render(Canvas c) {

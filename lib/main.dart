@@ -17,7 +17,9 @@ void main() async{
 
   Flame.images.loadAll(<String>[
     'ui/start-button.png',
-    'branding/title.png'
+    'ui/PlayButton-01.png',
+    'branding/title.png',
+    'branding/ColorCatcher-01.png'
   ]);
 
   ColorCatcherGame game = ColorCatcherGame(storage);

@@ -101,7 +101,7 @@ class ColorCatcherGame extends Game{
   void render(Canvas canvas) {
     Rect bgRect = Rect.fromLTWH(0, 0, screenSize.width, screenSize.height);
     Paint bgPaint = Paint();
-    bgPaint.color = Color(0xff5f634f);
+    bgPaint.color = Color(0xff696969);
     canvas.drawRect(bgRect, bgPaint);
     if(activeView == View.home) homeView.render(canvas);
     if(activeView == View.lost) lostView.render(canvas);
