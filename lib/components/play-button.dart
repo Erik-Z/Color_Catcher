@@ -25,10 +25,12 @@ class PlayButton {
   }
 
   void onTapDown() {
-    game.activeView = View.playing;
-    game.score = 0;
-    game.randomize();
-    game.timer.time = 5;
-    game.timer.currentTime = game.timer.time;
+    if(game.activeView == View.home || game.activeView == View.lost){
+      game.activeView = View.playing;
+      game.score = 0;
+      game.randomize();
+      game.timer.time = 5;
+      game.timer.currentTime = game.timer.time;
+    }
   }
 }

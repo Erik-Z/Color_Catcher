@@ -16,9 +16,7 @@ void main() async{
   SharedPreferences storage = await SharedPreferences.getInstance();
 
   Flame.images.loadAll(<String>[
-    'ui/start-button.png',
     'ui/PlayButton-01.png',
-    'branding/title.png',
     'branding/ColorCatcher-01.png'
   ]);
 

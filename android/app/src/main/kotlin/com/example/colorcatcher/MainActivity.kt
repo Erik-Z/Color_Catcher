@@ -1,4 +1,4 @@
-package com.example.colorcatcher
+package com.erikzdev.colorcatcher
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

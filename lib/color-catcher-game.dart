@@ -15,7 +15,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'components/timer.dart';
 import 'view.dart';
 
+const String testDevice = 'mobile_id';
+const String adUnitID = 'ca-app-pub-5603368600392159/6958031459';
+
 class ColorCatcherGame extends Game{
+
   Size screenSize;
   double tileSize;
   int correctColor;
